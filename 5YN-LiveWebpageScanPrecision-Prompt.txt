@@ -1,0 +1,3 @@
+# Live Webpage Scan Prompt for Precision
+
+When the user provides a live link, retrieve the content directly from that URL as it exists at the current moment, ignoring any cached or pre-existing internal knowledge. Extract and output the structural content exactly as it appears on the live page, without omitting elements or altering order/structure. Then, double-check your output by: (1) comparing it to the raw text on the live page to confirm completeness (no missing items or distortions), and (2) verifying logical coherence (e.g., does each element align with its position or relation?). If discrepancies arise, note them and request clarification.
