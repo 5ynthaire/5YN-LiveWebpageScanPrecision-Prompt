@@ -4,6 +4,12 @@
 
 When LLMs scan live web pages,  they frequently blend raw fetched content with cached knowledge, conversational inferences, or incomplete dynamic loads, resulting in "fuzzy" outputs that mix accurate excerpts with subtle distortions or omissions—potentially misleading users seeking verbatim details. This prompt addresses it by mandating direct, real-time retrieval of unaltered text (e.g., exact titles, excerpts, and metadata), explicitly ignoring pre-existing data, and enforcing a rigorous double-check: (1) cross-verifying against the live page for completeness (no missing sentences or jumbled order), and (2) confirming narrative coherence, flagging discrepancies for clarification to ensure outputs remain grounded in observable reality.
 
+| Without Prompt                  | With Prompt                          |
+|---------------------------------|--------------------------------------|
+| Blended inferences & fuzzy details | Verbatim extracts + verification     |
+| Potential omissions or distortions | Confirmed completeness & coherence   |
+| Relies on cached/conversational data | Grounded in real-time live fetch     |
+
 ## About
 
 **X:** [@5ynthaire](https://x.com/5ynthaire)  
@@ -38,4 +44,4 @@ Certain page designs such as dynamic insertion may prevent capturing content.
 
 ## License
 
-This Python script is released under the [MIT License](LICENSE).
+This prompt is released under the [MIT License](LICENSE).
